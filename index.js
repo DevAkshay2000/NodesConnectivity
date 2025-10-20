@@ -9,7 +9,7 @@ app.use(express.json());
 const pool = new Pool({
   host: '',
   port: 111,
-  user: 'avnadmin',
+  user: '',
   password: '',
   database: '',
   ssl: {
