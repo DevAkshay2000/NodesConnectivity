@@ -8,7 +8,7 @@ app.use(express.json());
 // Main database connectivity 
 const pool = new Pool({
   host: '',
-  port: 111,
+  port: 0,
   user: '',
   password: '',
   database: '',
