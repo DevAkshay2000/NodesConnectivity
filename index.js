@@ -7,11 +7,11 @@ app.use(express.json());
 
 // Main database connectivity 
 const pool = new Pool({
-  host: '',
-  port: 0,
-  user: '',
-  password: '',
-  database: '',
+  host: ,
+  port: ,
+  user: ,
+  password: ,
+  database: ,
   ssl: {
     rejectUnauthorized: false, // 👈 disables cert validation
   },
